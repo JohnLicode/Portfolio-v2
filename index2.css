@@ -1,0 +1,992 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+    scroll-behavior: smooth;
+    
+
+
+}
+
+body{
+
+    
+    overflow-x: hidden;
+
+}
+
+
+
+#preloader {
+    background: #000 url(loader.gif) no-repeat center center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+ }
+
+
+
+
+
+
+
+/*1st section page CSS */
+
+.container01{
+   
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+
+.logo{
+    position: absolute;
+    top:3%;
+    left: 10%;
+
+}
+
+.logo h1{
+    color: white;
+    font-family: 'Play', sans-serif;
+
+
+
+}
+
+.Hub{
+    border: 1px;
+    border-radius: 5px;
+    padding: 1px;
+    background-color:rgb(255, 123, 0);
+    color: black;
+    font-family: 'Play', sans-serif;
+  
+
+}
+
+
+
+
+nav{
+    display: flex;
+    padding: 1% 4%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Syne', sans-serif;
+    color: white;
+ 
+    
+    
+    
+   
+}
+
+.menu {
+    
+    flex:1;
+    text-align:right;
+   
+    
+}
+
+
+
+.menu ul li{
+    
+    list-style: none;
+    display: inline-block;
+    padding: 8px 27px;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Play', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+ 
+    
+
+}
+
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+    
+}
+
+
+.menu ul li::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background:rgb(255, 123, 0);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    float: right;
+    
+}
+
+.menu ul li:hover::after{
+    width:100%;
+
+}
+
+
+
+
+
+
+
+.Title_01 {
+
+    color: white;
+    position: absolute;
+    margin-top:9%;
+    right: 35%;
+    font-size: 23px;
+
+}
+
+
+.container01{
+    justify-content: center;
+    margin-right:7% ;
+    
+    
+    
+    
+}
+
+
+.container01 p{
+    color: white;
+    font-family: 'Play', sans-serif;;
+    font-size: 14PX;
+    text-align: left;
+    height: 40%;
+    width: 40%;
+    margin-top: 13% ;
+    margin-left: 51%;
+   
+    
+    
+}
+
+.img1 img{
+   width: 28%;
+   height: 53%;
+   position: absolute;
+   left: 13%;
+   bottom: 16%;
+  
+}
+
+
+/*2nd section page css*/
+
+.container02{
+   
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+.logo{
+    position: absolute;
+    top:3%;
+    left: 10%;
+
+}
+
+.logo h1{
+    color: white;
+    font-family: 'Play', sans-serif;
+
+
+
+}
+
+.Hub{
+    border: 1px;
+    border-radius: 5px;
+    padding: 1px;
+    background-color:rgb(255, 123, 0);
+    color: black;
+    font-family: 'Play', sans-serif;
+  
+
+}
+
+
+
+
+nav{
+    display: flex;
+    padding: 1% 4%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Syne', sans-serif;
+    color: white;
+ 
+    
+    
+    
+   
+}
+
+.menu {
+    
+    flex:1;
+    text-align:right;
+   
+    
+}
+
+
+
+.menu ul li{
+    
+    list-style: none;
+    display: inline-block;
+    padding: 8px 27px;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Play', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+ 
+    
+
+}
+
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+    
+}
+
+
+.menu ul li::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background:rgb(255, 123, 0);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    float: right;
+    
+}
+
+.menu ul li:hover::after{
+    width:100%;
+
+}
+
+
+.Title_02 {
+
+    color: white;
+    position: absolute;
+    margin-top:5%;
+    left: 13%;
+    font-size: 27px;
+}
+
+
+
+.content02 p{
+    padding-top: 20px;
+    color: white;
+    font-family: 'Play', sans-serif;;
+    font-size: 14PX;
+    text-align: left;
+    height: 40%;
+    width: 75%;
+    margin-top: 20% ;
+    margin-left: 15%;
+
+}
+
+
+.container03 {
+    
+    justify-content: center;
+    padding:0px;
+    margin-right:15% ;
+   
+
+}
+
+h3{
+    color: #fff;
+    font-family: 'Play', sans-serif;;
+    font-size: 13PX;
+    
+}
+
+
+
+
+.container04 {
+    display: flex;
+    
+
+
+}
+
+
+.text h1 {
+    color: white;
+    font-size: 13px;
+    margin-top: 20%;
+}
+    
+
+.container3{
+   
+    justify-content: center;
+    padding: 20px;
+    margin-right:24% ;
+    height: 40%;
+    width: 20%;
+    padding-bottom: 2;
+    margin-top: 10%;
+    
+    
+}
+
+h3{
+    color: #fff;
+    font-family: 'Play', sans-serif;;
+    font-size: 13PX;
+   
+
+    
+    
+    
+}
+
+
+
+
+
+.skills_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 160%;
+    padding-left: 7px;
+   
+
+   
+    
+}
+
+
+
+
+
+
+.container4 {
+    
+    background-color: rgb(192, 192, 192);
+    width: 195%;
+    border-radius: 0px;
+    margin: 10px;
+    
+}
+
+
+.skill {
+    background-color: rgb(255, 123, 0);
+    color: white;
+    height: 6px;
+    text-align: right;
+    font-size: 18px;
+    border-radius: 0px;
+          
+}
+
+.coding {
+    width: 75%;
+    animation: coding 6s;
+}
+
+.designing {
+    width:45%;
+    animation: designing 9s;
+}
+
+.editing {
+    width: 40%;
+    animation: editing 10s;
+
+}
+
+
+@keyframes coding {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:75%;
+    }
+}
+
+@keyframes designing {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:45%;
+    }
+}
+
+@keyframes editing {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:40%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.cardcon {
+    margin-top: 22%;
+    
+    display: flex;
+    flex:wrap;
+    gap:20px;
+   
+    
+
+}
+
+.cards {
+    background-color: rgba(107, 106, 104, 0.103);
+    border-radius: 2px;
+   
+    height: 170px;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-left: 4%;
+    padding-top: 10px;
+
+   
+    
+
+}
+
+.cards h1{
+   
+    margin-bottom: 3px;
+    color: #fff;
+   
+    font-size: 16px;
+    width: 80px;
+    
+    
+}
+
+.cards h6 {
+    color: rgb(255, 123, 0);
+    font-size: 13px;
+}
+
+.cards p {
+    padding-top: 3px;
+    color: white;
+    font-size: 10px;
+    width: 180px;
+    
+}
+
+/*4th section page css*/
+
+.container06{
+   
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+.logo{
+    position: absolute;
+    top:3%;
+    left: 10%;
+
+}
+
+.logo h1{
+    color: white;
+    font-family: 'Play', sans-serif;
+
+
+
+}
+
+.Hub{
+    border: 1px;
+    border-radius: 5px;
+    padding: 1px;
+    background-color:rgb(255, 123, 0);
+    color: black;
+    font-family: 'Play', sans-serif;
+  
+
+}
+
+
+
+
+nav{
+    display: flex;
+    padding: 1% 4%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Syne', sans-serif;
+    color: white;
+ 
+    
+    
+    
+   
+}
+
+.menu {
+    
+    flex:1;
+    text-align:right;
+   
+    
+}
+
+
+
+.menu ul li{
+    
+    list-style: none;
+    display: inline-block;
+    padding: 8px 27px;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Play', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+ 
+    
+
+}
+
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+    
+}
+
+
+.menu ul li::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background:rgb(255, 123, 0);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    float: right;
+    
+}
+
+.menu ul li:hover::after{
+    width:100%;
+
+}
+
+
+
+
+
+
+.container5 {
+
+    background-color: black;
+    height: 120%;
+    margin: auto;
+}
+
+
+.what{
+  
+    display: flex;
+    justify-content: start;
+    margin-left: 45%;
+    padding-top: 4%;
+    align-items: center; 
+    color: rgb(255, 123, 0);
+    font-size: 30px;
+    font-family: 'Play', sans-serif;
+    
+ 
+}
+
+.Frontend {
+    
+    display: flex;
+    justify-content: start;
+    margin-left: 17%;
+    padding-top: 4%;
+    align-items: center; 
+    color: white;
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+
+}
+
+
+
+
+
+.card{
+    display: flex;
+    gap: 50px;
+    justify-content:center;
+    align-items: center;
+  
+
+}
+
+.ido img{
+    margin-top: 25px;
+    height: 45px;
+    width: 50px;
+
+}
+
+.ido{
+    margin-top: 40px;
+    width:270px;     /*310 fix */
+    height: 250px;     /*290 fix */
+    text-align: center;   
+    cursor: pointer;  
+    background-color: rgba(102, 101, 99, 0.103);
+    transition: 0.5s;
+
+    @media screen {
+        
+    }
+    
+}
+
+.ido h3{
+    margin-top:  20px;
+    justify-content: center;
+    font-size: 15px;
+     
+}
+
+.ido p{
+    
+    font-size: 11px;
+    color: #fff;
+    text-align:left;
+    padding: 25px;
+    letter-spacing: normal;
+    word-spacing: normal;
+ 
+    
+
+}
+
+.ido i{
+    
+    color: white;
+    font-size: 70px;
+
+}
+
+.ido:hover{
+    box-shadow: 0 0 10px 5px rgb(255, 123, 0);
+    transform:scale(1.05);
+    border-radius: 16px;
+
+}
+
+
+
+.container6 {
+
+    background-color: black;
+    height: 80%;
+    margin: auto;
+    
+}
+
+
+.container08 {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.Conts {
+    margin-top: 7%;
+    display: flex;
+    justify-content:center;
+    align-items: left;
+    gap: 9%;
+    height: 25%;
+
+
+}
+
+.Text01cons{
+
+   /* border: 2px solid red; */
+    height: 320px;
+    width: 420px;
+    margin-top: 40px;
+}
+
+.Text01cons h1{
+    color: white;
+    font-size: 48px;
+    margin-top: 45px;
+    
+    
+}
+
+.Text01cons p {
+    color: white;
+    font-size: 13px;
+    margin-top: 18px;
+
+}
+
+
+
+.mail {
+    margin-top:25px;
+    display: flex;
+    justify-content:left;
+    align-items: left;
+    gap: 7px;
+}
+
+.mail i{
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-left: 0px;
+    background-color: rgba(124, 123, 121, 0.103);
+    padding-top:9px;
+    width: 50px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.mail p {
+    color:white;
+    font-size: 13px;
+}
+
+.email {
+    font-family: "Hind Madurai", sans-serif;
+    font-size:15px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(255, 123, 0) 
+}
+
+
+.Text02cons{
+    padding: 25px;
+    border-radius: 10px;
+    height: 500px;
+    width: 420px;
+    background-color: rgba(56, 56, 54, 0.171) ;
+    margin-bottom: 5%;
+   
+
+}
+
+.Text02cons h1{
+    color: #fff;
+    font-size: 20px;
+    font-weight:lighter;
+    font-family: "Hind Madurai", sans-serif;
+    margin-bottom: 10px;
+
+
+}
+
+
+
+#username { 
+    color: #ffffff;
+    font-family: "Hind Madurai", sans-serif;
+    margin-top: 20px;
+    height:44px ;
+    width: 365px;
+    background-color:   rgba(59, 56, 56, 0.082);
+    padding-left: 15px;
+    border-color: rgba(59, 56, 56, 0.082);
+    border-radius: 6px;
+
+}
+
+.txt1 {
+    margin-top: 15px;
+   
+}
+
+.txt {
+    color: #fff;
+    font-size: 13px;
+    font-weight:bold;
+    font-family: "Hind Madurai", sans-serif;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+#About_Proj{
+    color: #ffffff;
+    font-family: "Hind Madurai", sans-serif;
+    margin-top: 5px;
+    height:105px ;
+    width: 365px;
+    background-color:   rgba(59, 56, 56, 0.082);
+    padding-left: 15px;
+    border-color: rgba(59, 56, 56, 0.082);
+    border-radius: 6px;
+    overflow: auto;
+    display: block;
+    resize: vertical;
+
+    
+}
+
+
+button{
+    position: absolute;
+    margin-top: 18px;
+    
+    
+   
+
+}
+
+.btn-white {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #fff;
+    min-height: 40px;
+    padding: 0 15px;
+    font-size: 15px;
+    font-family: 'Play', sans-serif;
+    text-transform: uppercase;
+    z-index: 1;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 6px;
+
+    
+  }
+
+  
+  
+  
+  .btn-white::before {
+    content: "";
+    background-color: #fff;
+    display: block;
+    width: 45px;
+    height: 1px;
+    margin-right: 20px;
+
+  }
+  
+  .btn-white::after {
+    content: "";
+    background-color:rgb(255, 123, 0);;
+    display: block;
+    width: 0%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+
+  }
+  
+  .btn-white:hover {
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  
+  .btn-white:hover::after {
+    width: 100%;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+
+  }
+  
+  .btn-white:hover::before {
+    background-color: #ffffff;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+
+  }
+
